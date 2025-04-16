@@ -1,10 +1,10 @@
 [
   {
-    "name": "CoolMC",
-    "ip": "play.coolmc.net",
-    "banner": "",
-    "website": "",
+    "name": "Hypixel",
+    "ip": "mc.hypixel.net",
+    "banner": "https://via.placeholder.com/120x60?text=Hypixel",
+    "website": "https://hypixel.net",
     "discord": "",
-    "tags": []
+    "tags": ["mini-games", "popular"]
   }
 ]
