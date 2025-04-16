@@ -1,1 +1,35 @@
 body { background: #111; color: white; font-family: sans-serif; padding: 20px; }
+.server {
+  background: #2e2e2e;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.server img.banner {
+  width: 160px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.server-info {
+  flex-grow: 1;
+}
+
+.tags {
+  margin: 8px 0;
+}
+
+.tag {
+  background: #444;
+  color: #fff;
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 0.85rem;
+}
