@@ -1,37 +1,50 @@
-import { readFile } from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+const fs = require('fs');
+const path = require('path');
+const https = require('https');
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const dataPath = path.join(__dirname, '../data/servers.json');
+module.exports = async (req, res) => {
+  const dataPath = path.join(__dirname, '../data/servers.json');
 
-export default async function handler(req, res) {
   try {
-    const json = await readFile(dataPath, 'utf-8');
+    const json = fs.readFileSync(dataPath, 'utf-8');
     const servers = JSON.parse(json);
 
-    const responses = await Promise.all(servers.map(async (srv) => {
-      try {
-        const data = await fetch(`https://api.mcstatus.io/v2/status/java/${srv.ip}`);
-        const result = await data.json();
-        return {
-          ...srv,
-          players: result.players,
-          online: result.online
-        };
-      } catch (e) {
-        return {
-          ...srv,
-          players: { online: 0, max: 0 },
-          online: false
-        };
-      }
-    }));
+    const results = await Promise.all(
+      servers.map(server => {
+        return new Promise((resolve) => {
+          https.get(`https://api.mcstatus.io/v2/status/java/${server.ip}`, (resp) => {
+            let data = '';
+            resp.on('data', chunk => data += chunk);
+            resp.on('end', () => {
+              try {
+                const status = JSON.parse(data);
+                resolve({
+                  ...server,
+                  online: status.online,
+                  players: status.players
+                });
+              } catch (err) {
+                resolve({
+                  ...server,
+                  online: false,
+                  players: { online: 0, max: 0 }
+                });
+              }
+            });
+          }).on("error", () => {
+            resolve({
+              ...server,
+              online: false,
+              players: { online: 0, max: 0 }
+            });
+          });
+        });
+      })
+    );
 
     res.setHeader('Content-Type', 'application/json');
-    res.status(200).end(JSON.stringify(responses));
+    res.status(200).end(JSON.stringify(results));
   } catch (err) {
-    res.status(500).json({ error: "Server crashed", message: err.message });
+    res.status(500).json({ error: "Could not load servers.json", message: err.message });
   }
-}
+};
