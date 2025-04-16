@@ -12,32 +12,40 @@ module.exports = async (req, res) => {
     const results = await Promise.all(
       servers.map(server => {
         return new Promise((resolve) => {
-          https.get(`https://api.mcstatus.io/v2/status/java/${server.ip}`, (resp) => {
-            let data = '';
-            resp.on('data', chunk => data += chunk);
-            resp.on('end', () => {
-              try {
-                const status = JSON.parse(data);
-                resolve({
-                  ...server,
-                  online: status.online,
-                  players: status.players
-                });
-              } catch (err) {
-                resolve({
-                  ...server,
-                  online: false,
-                  players: { online: 0, max: 0 }
-                });
-              }
+          try {
+            https.get(`https://api.mcstatus.io/v2/status/java/${server.ip}`, (resp) => {
+              let data = '';
+              resp.on('data', chunk => data += chunk);
+              resp.on('end', () => {
+                try {
+                  const status = JSON.parse(data);
+                  resolve({
+                    ...server,
+                    online: status.online,
+                    players: status.players
+                  });
+                } catch (err) {
+                  resolve({
+                    ...server,
+                    online: false,
+                    players: { online: 0, max: 0 }
+                  });
+                }
+              });
+            }).on("error", () => {
+              resolve({
+                ...server,
+                online: false,
+                players: { online: 0, max: 0 }
+              });
             });
-          }).on("error", () => {
+          } catch {
             resolve({
               ...server,
               online: false,
               players: { online: 0, max: 0 }
             });
-          });
+          }
         });
       })
     );
