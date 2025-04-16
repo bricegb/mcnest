@@ -4,7 +4,551 @@
     "ip": "mc.hypixel.net",
     "banner": "https://via.placeholder.com/160x80?text=Hypixel",
     "website": "https://hypixel.net",
+    "discord": "https://discord.gg/hypixel",
+    "tags": [
+      "minigames",
+      "skywars",
+      "popular"
+    ]
+  },
+  {
+    "name": "Mineplex",
+    "ip": "us.mineplex.com",
+    "banner": "https://via.placeholder.com/160x80?text=Mineplex",
+    "website": "https://mineplex.com",
     "discord": "",
-    "tags": ["mini-games", "popular"]
+    "tags": [
+      "minigames",
+      "classic",
+      "community"
+    ]
+  },
+  {
+    "name": "Server 3",
+    "ip": "play.server3.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+3",
+    "website": "https://server3.net",
+    "discord": "https://discord.gg/server3",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 4",
+    "ip": "play.server4.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+4",
+    "website": "https://server4.net",
+    "discord": "https://discord.gg/server4",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 5",
+    "ip": "play.server5.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+5",
+    "website": "https://server5.net",
+    "discord": "https://discord.gg/server5",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 6",
+    "ip": "play.server6.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+6",
+    "website": "https://server6.net",
+    "discord": "https://discord.gg/server6",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 7",
+    "ip": "play.server7.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+7",
+    "website": "https://server7.net",
+    "discord": "https://discord.gg/server7",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 8",
+    "ip": "play.server8.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+8",
+    "website": "https://server8.net",
+    "discord": "https://discord.gg/server8",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 9",
+    "ip": "play.server9.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+9",
+    "website": "https://server9.net",
+    "discord": "https://discord.gg/server9",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 10",
+    "ip": "play.server10.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+10",
+    "website": "https://server10.net",
+    "discord": "https://discord.gg/server10",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 11",
+    "ip": "play.server11.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+11",
+    "website": "https://server11.net",
+    "discord": "https://discord.gg/server11",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 12",
+    "ip": "play.server12.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+12",
+    "website": "https://server12.net",
+    "discord": "https://discord.gg/server12",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 13",
+    "ip": "play.server13.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+13",
+    "website": "https://server13.net",
+    "discord": "https://discord.gg/server13",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 14",
+    "ip": "play.server14.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+14",
+    "website": "https://server14.net",
+    "discord": "https://discord.gg/server14",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 15",
+    "ip": "play.server15.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+15",
+    "website": "https://server15.net",
+    "discord": "https://discord.gg/server15",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 16",
+    "ip": "play.server16.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+16",
+    "website": "https://server16.net",
+    "discord": "https://discord.gg/server16",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 17",
+    "ip": "play.server17.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+17",
+    "website": "https://server17.net",
+    "discord": "https://discord.gg/server17",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 18",
+    "ip": "play.server18.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+18",
+    "website": "https://server18.net",
+    "discord": "https://discord.gg/server18",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 19",
+    "ip": "play.server19.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+19",
+    "website": "https://server19.net",
+    "discord": "https://discord.gg/server19",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 20",
+    "ip": "play.server20.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+20",
+    "website": "https://server20.net",
+    "discord": "https://discord.gg/server20",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 21",
+    "ip": "play.server21.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+21",
+    "website": "https://server21.net",
+    "discord": "https://discord.gg/server21",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 22",
+    "ip": "play.server22.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+22",
+    "website": "https://server22.net",
+    "discord": "https://discord.gg/server22",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 23",
+    "ip": "play.server23.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+23",
+    "website": "https://server23.net",
+    "discord": "https://discord.gg/server23",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 24",
+    "ip": "play.server24.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+24",
+    "website": "https://server24.net",
+    "discord": "https://discord.gg/server24",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 25",
+    "ip": "play.server25.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+25",
+    "website": "https://server25.net",
+    "discord": "https://discord.gg/server25",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 26",
+    "ip": "play.server26.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+26",
+    "website": "https://server26.net",
+    "discord": "https://discord.gg/server26",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 27",
+    "ip": "play.server27.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+27",
+    "website": "https://server27.net",
+    "discord": "https://discord.gg/server27",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 28",
+    "ip": "play.server28.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+28",
+    "website": "https://server28.net",
+    "discord": "https://discord.gg/server28",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 29",
+    "ip": "play.server29.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+29",
+    "website": "https://server29.net",
+    "discord": "https://discord.gg/server29",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 30",
+    "ip": "play.server30.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+30",
+    "website": "https://server30.net",
+    "discord": "https://discord.gg/server30",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 31",
+    "ip": "play.server31.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+31",
+    "website": "https://server31.net",
+    "discord": "https://discord.gg/server31",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 32",
+    "ip": "play.server32.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+32",
+    "website": "https://server32.net",
+    "discord": "https://discord.gg/server32",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 33",
+    "ip": "play.server33.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+33",
+    "website": "https://server33.net",
+    "discord": "https://discord.gg/server33",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 34",
+    "ip": "play.server34.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+34",
+    "website": "https://server34.net",
+    "discord": "https://discord.gg/server34",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 35",
+    "ip": "play.server35.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+35",
+    "website": "https://server35.net",
+    "discord": "https://discord.gg/server35",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 36",
+    "ip": "play.server36.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+36",
+    "website": "https://server36.net",
+    "discord": "https://discord.gg/server36",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 37",
+    "ip": "play.server37.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+37",
+    "website": "https://server37.net",
+    "discord": "https://discord.gg/server37",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 38",
+    "ip": "play.server38.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+38",
+    "website": "https://server38.net",
+    "discord": "https://discord.gg/server38",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 39",
+    "ip": "play.server39.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+39",
+    "website": "https://server39.net",
+    "discord": "https://discord.gg/server39",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 40",
+    "ip": "play.server40.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+40",
+    "website": "https://server40.net",
+    "discord": "https://discord.gg/server40",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 41",
+    "ip": "play.server41.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+41",
+    "website": "https://server41.net",
+    "discord": "https://discord.gg/server41",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 42",
+    "ip": "play.server42.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+42",
+    "website": "https://server42.net",
+    "discord": "https://discord.gg/server42",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 43",
+    "ip": "play.server43.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+43",
+    "website": "https://server43.net",
+    "discord": "https://discord.gg/server43",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 44",
+    "ip": "play.server44.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+44",
+    "website": "https://server44.net",
+    "discord": "https://discord.gg/server44",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 45",
+    "ip": "play.server45.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+45",
+    "website": "https://server45.net",
+    "discord": "https://discord.gg/server45",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 46",
+    "ip": "play.server46.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+46",
+    "website": "https://server46.net",
+    "discord": "https://discord.gg/server46",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 47",
+    "ip": "play.server47.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+47",
+    "website": "https://server47.net",
+    "discord": "https://discord.gg/server47",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 48",
+    "ip": "play.server48.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+48",
+    "website": "https://server48.net",
+    "discord": "https://discord.gg/server48",
+    "tags": [
+      "survival",
+      "economy"
+    ]
+  },
+  {
+    "name": "Server 49",
+    "ip": "play.server49.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+49",
+    "website": "https://server49.net",
+    "discord": "https://discord.gg/server49",
+    "tags": [
+      "skyblock",
+      "pvp"
+    ]
+  },
+  {
+    "name": "Server 50",
+    "ip": "play.server50.net",
+    "banner": "https://via.placeholder.com/160x80?text=Server+50",
+    "website": "https://server50.net",
+    "discord": "https://discord.gg/server50",
+    "tags": [
+      "survival",
+      "economy"
+    ]
   }
 ]
